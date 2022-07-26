@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    /* font-family: 'Dela Gothic One'; */
+}
+/* -------------container------------- */
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: #2B2922;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* ----------X---container-----X-------- */
+
+
+/* ----------------NAVBAR---------------- */
+section[aria-label="navbar"]
+{
+    width: 100%;
+}
+nav.navbar
+{
+    padding: 40px  90px;
+    width: 100%;
+    display: flex;
+    flex: 4;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+.logo
+{
+    width: 150px;
+    flex: 1;
+}
+.navbar div:last-child
+{
+    display: flex;
+    flex-direction: row;
+}
+ul.list
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #a19f98;
+    font-weight: 400;
+    list-style: none;
+}
+li.active
+{
+    color:#e7e6e4;
+    font-weight: 500;
+}
+li.list-item
+{
+    font-family: "red rose";
+    font-size: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.button-small
+{
+    flex: 3;
+    color: #928334;
+    border: 1px solid #928334;
+    background: transparent;
+    padding: 15px 40px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ----------X------NAVBAR---------X------- */
+
+
+/* -------------hero section start----------- */
+section[aria-label="hero"]
+{
+    width: 100%;   
+}
+.hero
+{
+    width: 100%;
+    padding: 40px  90px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap: 150px;
+}
+.left,.right
+{
+    width: 50%;
+}
+.head__text
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 4.4rem;
+}
+.secondary__text
+{
+    font-family:'Work Sans', sans-serif ;
+    font-weight: 300;
+    color: #cdccc9;
+    font-size: 1.7rem;
+    text-align: left;
+    align-self: center;
+}
+section.hero__image
+{
+    width: 100%;
+    height: 600px;
+    background:url('./assets/justice.png');
+    /* background-position: center top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
