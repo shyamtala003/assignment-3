@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![App Screenshot](./screenshot/Screenshot%20(50).png)
+![App Screenshot](./screenshot/Screenshot%20(75).png)
 
 >I Deployed my Site on Netlify and Vercel. so you can check it out 👇
 <br> [https://shyam--justice-dainty.netlify.app/](https://shyam--justice-dainty.netlify.app/)
