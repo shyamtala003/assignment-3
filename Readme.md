@@ -8,7 +8,7 @@
 ![App Screenshot](./screenshot/Screenshot%20(50).png)
 
 >I Deployed my Site on Netlify and Vercel. so you can check it out 👇
-<br> [https://bussiness-starship.netlify.app](https://bussiness-starship.netlify.app)
+<br> [https://shyam--justice-dainty.netlify.app/](https://shyam--justice-dainty.netlify.app/)
 <br> [https://assignment-3-sigma.vercel.app/](https://assignment-3-sigma.vercel.app/)
 
 ## What I Learned from this Project?
